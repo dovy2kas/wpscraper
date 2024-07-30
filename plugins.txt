@@ -1,0 +1,10 @@
+contact-form-7; 3.5.2 - 5.3.2
+woocommerce; 7.1.0 - 8.9.1
+wp-fastest-cache; 1.2.2
+wordpress-seo; 1.7.3 - 22.5
+akismet; 3.1.4
+wordfence; 3.0.0 - 5.2.4
+litespeed-cache; 4.4.3 - 5.7
+jetpack; 3.4.2 - 6.4.2
+updraftplus; 1.16.58 - 1.22.8
+all-in-one-seo-pack; 2.1.5 - 4.6.0
