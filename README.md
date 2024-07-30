@@ -1,5 +1,5 @@
 # wpscraper
-A script that finds the wordpress website's version and it's plugins.
+A script that finds the wordpress website's version and it's plugins. You can choose either to scrape one website directly from the input, or a list of domains from a file.
 
 # About
 The script will try to find the plugins listed in the `plugins.txt` file. If you want to add a plugin to search for the syntax is simple:
