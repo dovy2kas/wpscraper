@@ -20,7 +20,7 @@ if not any(vars(args).values()):
     exit()
 
 def title():
-    title = """                                                   
+    title = r"""                                                   
                                                    
 __      ___ __  ___  ___ _ __ __ _ _ __   ___ _ __ 
 \ \ /\ / / '_ \/ __|/ __| '__/ _` | '_ \ / _ \ '__|
@@ -31,9 +31,8 @@ __      ___ __  ___  ___ _ __ __ _ _ __   ___ _ __
     print(colored(title, 'cyan'))
     print(colored('Made by Dovydas', 'magenta'))
 
-prefix = f"{colored('[', 'light_grey', attrs=['bold'])}{colored('+', 'light_blue')}{colored(']', 'light_grey', attrs=['bold'])}"
-prefix_err = f"{colored('[', 'light_grey', attrs=['bold'])}{colored('!', 'light_red')}{colored(']', 'light_grey', attrs=['bold'])}"
-
+prefix = f"{colored('[', 'grey', attrs=['bold'])}{colored('+', 'blue')}{colored(']', 'grey', attrs=['bold'])}"
+prefix_err = f"{colored('[', 'grey', attrs=['bold'])}{colored('!', 'red')}{colored(']', 'grey', attrs=['bold'])}"
 plugins_file = 'plugins.txt'
 
 def parse_version_range(version_range):
